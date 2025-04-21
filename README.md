@@ -1,7 +1,3 @@
-Absolutely! Here's the fully formatted **GitHub README.md** with Markdown styling:
-
----
-
 # Laptop Price Predictor
 
 A machine learning-powered web application that predicts laptop prices based on specifications like brand, RAM, processor type, screen resolution, and more. Built with Python and deployed using Streamlit, it delivers real-time price predictions based on user inputs.
