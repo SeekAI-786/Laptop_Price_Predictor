@@ -1,23 +1,73 @@
-# 👋 Hi, I'm Muhammad Aun Ali!
+Laptop Price Predictor
 
-### 🎓 AI Engineer & Data Enthusiast
+A machine learning-powered web application that predicts laptop prices based on key specifications such as brand, RAM, processor type, screen resolution, and more. Built with Python, trained on real-world data, and deployed using Streamlit.
 
-I'm a visionary AI engineer currently pursuing a Bachelor's degree in AI. I have a strong background in Python programming, AI development, and creating innovative solutions, including a groundbreaking holographic PC system. My expertise also extends to digital marketing, SQL, and teamwork, making me a well-rounded professional ready to tackle challenges in the tech industry.
+Features:
 
-### 🛠️ Technical Skills
-- **Programming Languages:** Python
-- **AI Development:** Holographic PC systems, AI-driven applications
-- **Database Management:** SQL
-- **Tools & Technologies:** Excel, CHATGPT, Power BI
-- 
-### 💼 Experience
-- **Holographic PC System:** Developed a cutting-edge holographic PC system, demonstrating innovation and expertise in AI.
-- **Template Design:** Created visually appealing templates for various projects, showcasing a blend of creativity and technical proficiency.
-- **Team Projects:** Collaborated effectively in teams, utilizing communication and teamwork skills to deliver successful outcomes.
+Predicts laptop prices based on user input
 
-### 🌱 Currently Learning
-- **Data Analysis:** Pursuing the Google Career Certificate in Data Analysis to further my understanding and capabilities in this domain.
+Interactive UI using Streamlit
 
-### 🌐 Connect with Me
-- **LinkedIn:** [Muhammad Aun Ali](https://www.linkedin.com/in/mohammad-aun-ali-705852293/)
-- **GitHub:** [Your GitHub Profile](https://github.com/SeekAI-786)
+End-to-end pipeline with data preprocessing, model training, and deployment
+
+Supports features like:
+
+Brand and type
+
+RAM size
+
+Touchscreen and IPS display
+
+Screen size and resolution
+
+Processor and storage details
+
+GPU brand and operating system
+
+Tech Stack:
+
+Python
+
+Pandas, NumPy, Scikit-learn
+
+Jupyter Notebook
+
+Streamlit
+
+Pickle (for model serialization)
+
+Machine Learning Workflow:
+
+Data Cleaning: Handled missing values and standardized formats
+
+Feature Engineering: Extracted and encoded relevant features
+
+Model Training: Trained a regression model to predict laptop prices
+
+Deployment: Integrated the model with a Streamlit frontend for real-time prediction
+
+Key Files:
+
+LaptopPricePredictor.ipynb: Jupyter Notebook containing the full ML pipeline
+
+app.py: Streamlit app for user interaction
+
+pipe.pkl: Serialized model pipeline for prediction
+
+df.pkl: Processed dataset used in the app
+
+How to Run:
+
+Clone the repository
+
+Install required packages
+
+Run the Streamlit app using: streamlit run app.py
+
+Demo:
+
+Input your laptop’s specifications and get an instant estimated price.
+
+Contributions:
+
+Open to feedback and contributions. Feel free to fork the repo and improve it!
