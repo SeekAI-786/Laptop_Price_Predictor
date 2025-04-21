@@ -1,18 +1,16 @@
 Laptop Price Predictor
+A machine learning-powered web application that predicts laptop prices based on specifications like brand, RAM, processor type, screen resolution, and more. Built with Python and deployed using Streamlit, it delivers real-time price predictions based on user inputs.
 
-A machine learning-powered web application that predicts laptop prices based on key specifications such as brand, RAM, processor type, screen resolution, and more. Built with Python, trained on real-world data, and deployed using Streamlit.
+Features
+Predicts laptop prices based on various specs
 
-Features:
+Interactive UI with Streamlit
 
-Predicts laptop prices based on user input
+Trained regression model using real-world data
 
-Interactive UI using Streamlit
+Handles features like:
 
-End-to-end pipeline with data preprocessing, model training, and deployment
-
-Supports features like:
-
-Brand and type
+Laptop brand and type
 
 RAM size
 
@@ -20,12 +18,11 @@ Touchscreen and IPS display
 
 Screen size and resolution
 
-Processor and storage details
+Processor, storage, and GPU
 
-GPU brand and operating system
+Operating System
 
-Tech Stack:
-
+Tech Stack
 Python
 
 Pandas, NumPy, Scikit-learn
@@ -34,40 +31,35 @@ Jupyter Notebook
 
 Streamlit
 
-Pickle (for model serialization)
+Pickle (for saving the trained model)
 
-Machine Learning Workflow:
+ML Workflow
+Data Preprocessing
+Cleaned and formatted data, handled missing values.
 
-Data Cleaning: Handled missing values and standardized formats
+Feature Engineering
+Extracted relevant specs, encoded categorical variables.
 
-Feature Engineering: Extracted and encoded relevant features
+Model Training
+Trained a regression model to predict laptop prices.
 
-Model Training: Trained a regression model to predict laptop prices
+Deployment
+Integrated the trained model into a Streamlit app for real-time predictions.
 
-Deployment: Integrated the model with a Streamlit frontend for real-time prediction
+Repository Contents
 
-Key Files:
+File/Folder	Description
+LaptopPricePredictor.ipynb	Notebook for EDA, preprocessing, and model training
+app.py	Streamlit app script for live predictions
+pipe.pkl	Serialized machine learning pipeline
+df.pkl	Processed dataset used in the application
 
-LaptopPricePredictor.ipynb: Jupyter Notebook containing the full ML pipeline
+Demo
+Input your desired laptop specs in the Streamlit UI and get an estimated price instantly.
 
-app.py: Streamlit app for user interaction
+Contributing
+Contributions are welcome!
+Feel free to open issues or submit pull requests to enhance the project.
 
-pipe.pkl: Serialized model pipeline for prediction
-
-df.pkl: Processed dataset used in the app
-
-How to Run:
-
-Clone the repository
-
-Install required packages
-
-Run the Streamlit app using: streamlit run app.py
-
-Demo:
-
-Input your laptop’s specifications and get an instant estimated price.
-
-Contributions:
-
-Open to feedback and contributions. Feel free to fork the repo and improve it!
+License
+This project is licensed under the MIT License.
